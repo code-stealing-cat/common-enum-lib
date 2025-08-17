@@ -8,4 +8,17 @@
     <packaging>jar</packaging>
     <name>Common-Enum-Library</name>
     <description>Common-Enum-Library</description>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Release Repository</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
