@@ -4,5 +4,6 @@ public enum StatusEnum {
     ACTIVE,
     INACTIVE,
     DELETED,
-    TEST
+    TEST,
+    START
 }
